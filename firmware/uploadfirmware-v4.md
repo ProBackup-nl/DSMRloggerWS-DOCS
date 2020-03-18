@@ -127,6 +127,5 @@ Let op!
 
  Als de verbinding met de server vóór die tijd verbroken wordt klik dan op de \`back\` knop van de browser waarna de tekst alsnog \(weer\) verschijnt. Klik nu op \*\*hier\*\* om de DSMRloggerWS hoofd pagina opnieuw te laden.
 
-\[DSMR-PCB\]  
-
+![](../.gitbook/assets/dsmrlogger_v4_top.png)
 
