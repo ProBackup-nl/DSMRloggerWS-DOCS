@@ -22,5 +22,5 @@ Let op!
 
  Hou er rekening mee dat eventuele data-bestanden die al op SPIFFS stonden nu weg zijn! Als je ze niet kwijt wil moet je er eerst een kopie van maken op je computer en deze, na het flashen van SPIFFS weer terug zetten \(dat kan met de **DSMRlogger2HTTP** firmware met behulp van de **/onderhoud** pagina en bij de **DSMRloggerWS** firmware met de FSexplorer \)!
 
-\[ChartJaar\]
+\[ChartJaar\] jaarChart
 
