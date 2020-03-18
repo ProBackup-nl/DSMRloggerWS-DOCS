@@ -1,7 +1,5 @@
 # Clonen Firmware
 
-### Clonen Firmware <a id="clonen-firmware"></a>
-
 De **DSMRloggerWS** firmware staat hier [https://github.com/mrWheel/DSMRloggerWS](https://github.com/mrWheel/DSMRloggerWS).
 
 Er zijn twee manieren om de firmware te clonen.
@@ -61,7 +59,4 @@ Er verschijnt een nieuw editor window met de firmware van de DSMRlogger!
 ![](https://mrwheel.github.io/DSMRloggerWS/img/IDE_Load-c.png)
 
 ![](https://mrwheel.github.io/DSMRloggerWS/img/DSMRsettings.png)
-
-[Next ](https://mrwheel.github.io/DSMRloggerWS/uploadFirmware_V4/)[ Previous](https://mrwheel.github.io/DSMRloggerWS/benodigdeBibliotheken/)  
-
 
