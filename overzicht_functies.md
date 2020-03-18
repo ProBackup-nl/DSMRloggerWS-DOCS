@@ -1,4 +1,4 @@
-# Overzicht - DSMRloggerWS
+# Overzicht te selecteren functies
 
 Tijdens het compileren van de firmware kun je bepaalde functionaliteit in- en uit-schakelen door de \#defines wél of níet door twee slashes \("//"\) vooraf te laten gaan.
 

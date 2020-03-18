@@ -1,4 +1,4 @@
-# \(eerste keer\) Opstarten - DSMRloggerWS
+# \(eerste keer\) Opstarten
 
 Na het flashen van de firmware en het uploaden van de `data`-map kun je de DSMR-logger op de `P1` poort van de _Slimme Meter_ aansluiten.
 
@@ -19,12 +19,16 @@ Als de blauwe led blijft branden dan moeten de gegevens van jouw WiFi netwerk no
 
 Met je computer/mobiel/tablet, ga je naar `Netwerk Instellingen` en kijk je welke WiFi Access Points \(AP\) er allemaal zijn.
 
+![](https://mrwheel.github.io/DSMRloggerWS/img/selectAP.png)
+
 Als daar een WiFi AP met de naam `DSMR-WS xx-yy-zz` tussen staat maak je daar verbinding mee. Er kunnen nu twee dingen gebeuren:
 
 1. Er verschijnt een popUp window waar je jouw WiFi netwerk kunt selecteren en het bijbehorende wachtwoord kunt invoeren;
 2. Of er gebeurt niets. Ga dan met je browser naar `http://192.168.4.1/` waarna er een pagina verschijnt waarin je je WiFi netwerk kunt selecteren en het bijbehorende wachtwoord kunt invoeren.
 
-Druk vervolgens op \[`Save`\]. 
+![](https://mrwheel.github.io/DSMRloggerWS/img/configWiFi_select.png)
+
+Druk vervolgens op \[`Save`\]. ![](https://mrwheel.github.io/DSMRloggerWS/img/configWiFi_saved.png)
 
 De logger zal rebooten en verbinding maken met jouw WiFi router \(zie: `Normale werking`\).
 
@@ -42,10 +46,11 @@ Om te bepalen welk IP is uitgegeven aan de ESP door de DHCP server, kun je in je
 
 Een andere manier om achter het IP-adres van je DSMR-logger te komen is door de ArduinoIDE op te starten.
 
+![](https://mrwheel.github.io/DSMRloggerWS/img/IDE_DSMR-WS_IPaddress.png)
+
 Onder `Network Ports` staat de `DSMR-WS` als optie, met daarachter het IP adres \(in dit voorbeeld is dat `192.168.12.106`\).
 
-Uitzoeken
+UitzoekenVanaf versie 0.4.2 van de DSMRloggerWS firmware werkt bovenstaande misschien niet meer!
 
- Vanaf versie 0.4.2 van de DSMRloggerWS firmware werkt bovenstaande misschien niet meer!\[Opstart Meldingen\]  
-
+[Opstartmeldingen \(Video\)](https://youtu.be/CyqlkIMbBRk)
 
