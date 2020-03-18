@@ -40,9 +40,3 @@ Klik je nu op \[`TelnetStreamTest`\] dan wordt dit voorbeeld programma in de Ard
 
 Installeer op dezelfde manier de bibliotheken die voor de `DSMRloggerWS` firmware nodig zijn \(zie het [volgende hoofdstuk](https://mrwheel.github.io/DSMRloggerWS/benodigdeBibliotheken/)\).
 
-\[DSMR-Dag\]  
-![](https://mrwheel.github.io/DSMRloggerWS/img/TabelDag.png)
-
-[Next ](https://mrwheel.github.io/DSMRloggerWS/benodigdeBibliotheken/)[ Previous](https://mrwheel.github.io/DSMRloggerWS/installatieDataUploadTool/)  
-
-

@@ -58,5 +58,3 @@ Er verschijnt een nieuw editor window met de firmware van de DSMRlogger!
 
 ![](https://mrwheel.github.io/DSMRloggerWS/img/IDE_Load-c.png)
 
-![](https://mrwheel.github.io/DSMRloggerWS/img/DSMRsettings.png)
-
