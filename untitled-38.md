@@ -12,7 +12,7 @@ Bovendien kent Mindergas.nl een integratie met Pricewise waardoor je snel kunt v
 
 | \#define | Functie |
 | :--- | :--- |
-| USE\_MINDERGAS | Door deze define wordt de mindergas integratie mee gecompileerd bij het maken van de firmware. Kijk ook [hier](../Use_Mindergas/) |
+| USE\_MINDERGAS | Door deze define wordt de mindergas integratie mee gecompileerd bij het maken van de firmware. Kijk ook [hier](https://github.com/mrWheel/DSMRloggerWS-DOCS/tree/94a308d1a1e155c343c75ec4ff4d6d5729dbe677/Use_Mindergas/README.md) |
 
 ## Instellen van Mindergas.nl <a id="instellen-van-mindergasnl"></a>
 
