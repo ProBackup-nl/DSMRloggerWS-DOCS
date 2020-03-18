@@ -1,10 +1,10 @@
-# upload Data map naar DSMR-logger V4 board
+# upload Data map naar DSMR-logger V4
 
 In de `data`-map van de DSMRloggerWS firmware staan bestanden die nodig zijn voor het functioneren van de firmware.
 
 ![data](https://mrwheel.github.io/DSMRloggerWS/img/DSMR_data_map.png)
 
-Deze bestanden moeten dan ook overgezet worden naar de DSMR-logger. Dat 'overzetten' kan op twee manieren: _'_[_Bedraad_](https://mrwheel.github.io/DSMRloggerWS/uploadDataMap_V4/#bedraad)_'_ en _'_[_Over The Air_](https://mrwheel.github.io/DSMRloggerWS/uploadDataMap_V4/#over-the-air)_'_
+Deze bestanden moeten dan ook overgezet worden naar de DSMR-logger. Dat 'overzetten' kan op twee manieren: _'_[_Bedraad_](uploaddatamap_v4.md#bedraad)_'_ en _'_[_Over The Air_](uploaddatamap_v4.md#over-the-air)_'_
 
 #### Bedraad <a id="bedraad"></a>
 

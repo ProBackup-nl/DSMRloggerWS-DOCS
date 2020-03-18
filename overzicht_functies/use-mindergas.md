@@ -12,7 +12,10 @@ Via `FSexplorer -> Edit instellingen -> Settings` kun je het jouw toegekende aut
 
 **Lees ook** [**dit**](https://mrwheel.github.io/DSMRloggerWS/integratieMindergas/).
 
-Let op!     \(DSMR-logger V3\)Deze functie is niet beschikbaar op een DSMR-logger versie 2 of 3 bordje!
+{% hint style="info" %}
+Let op!     \(DSMR-logger V3\)  
+Deze functie is niet beschikbaar op een DSMR-logger versie 2 of 3 bordje!
+{% endhint %}
 
 | \#define | Functie |
 | :--- | :--- |

@@ -2,10 +2,10 @@
 
 Er zijn verschillende manieren om de DSMR-logger van \(nieuwe\) firmware te voorzien. Dit gaat het eenvoudigst _Over The Air_ \(OTA\) maar de eerste keer zal dit altijd bedraad moeten.
 
-* [FTDI-adapter](https://mrwheel.github.io/DSMRloggerWS/hardware_V4_Programmer/#ftdi-adapter)
-* [USB to Serial adaptor bordje](https://mrwheel.github.io/DSMRloggerWS/hardware_V4_Programmer/#usb-to-serial-adaptor-bordje)
-* [USB to TTL adaptor kabel](https://mrwheel.github.io/DSMRloggerWS/hardware_V4_Programmer/#usb-to-ttl-serial-adaptor-kabel)
-* [Flashen \(programmeren\)](https://mrwheel.github.io/DSMRloggerWS/hardware_V4_Programmer/#flashen-programmeren)
+* FTDI-adapter
+* USB to Serial adaptor bordje
+* USB to TTL adaptor kabel
+* Flashen \(programmeren\)
 
 #### FTDI-adapter <a id="ftdi-adapter"></a>
 
@@ -52,7 +52,10 @@ Omdat de DSMR-logger V4 geen aansluitingen voor specifieke controle signalen hee
 
 Om nu de firmware of de `data`-map naar de _DSMR-logger v4_ te flashen moet je de _DSMR-logger v4_ _**eerst**_ in `Flash-mode` zetten.
 
-Let op!Koppel, vóórdat je de programmer op de DSMR-logger v4 aansluit, éérst de Slimme Meter los!
+{% hint style="danger" %}
+Let op!  
+Koppel, vóórdat je de programmer op de DSMR-logger v4 aansluit, éérst de Slimme Meter los!
+{% endhint %}
 
 Dit doe je door achtereenvolgens deze handelingen uit te voeren:
 
@@ -65,7 +68,7 @@ De DSMR-logger staat nu in `Flash-mode` en blijft in die mode tot er firmware of
 
 Hierna hoort de DSMR-logger normaal op te starten. Mocht dit niet het geval zijn druk dan 1x op de `RESET` knop..
 
-Zie ook [`Vraag en Antwoord`](https://mrwheel.github.io/DSMRloggerWS/QenA/#5-volt-programmer)
+Zie ook [`Vraag en Antwoord`](../overigen/vragen-en-antwoorden.md#vragen-en-antwoorden)
 
-\[ChartActueel\]![](https://mrwheel.github.io/DSMRloggerWS/img/ChartActueel.png)
+![](https://mrwheel.github.io/DSMRloggerWS/img/ChartActueel.png)
 

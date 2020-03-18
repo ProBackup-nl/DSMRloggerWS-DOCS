@@ -2,12 +2,12 @@
 
 Vanaf versie 0.4.5 kan de DSMRloggerWS firmware ook overweg met Slimme Meters die nog niet aan de DSMR 4.0 standaard voldoen.
 
-Let op!
-
- Deze functionaliteit is slechts beperkt getest!  
-Met dank aan Jordy voor het testen met een DSMR 2.2 meter!
-
- Mocht je meer informatie kunnen geven over eventuele problemen neem dan contact met mij op \(plaats een comment op mijn website\)
+{% hint style="info" %}
+Let op!   
+Deze functionaliteit is slechts beperkt getest!  
+Met dank aan Jordy voor het testen met een DSMR 2.2 meter!  
+Mocht je meer informatie kunnen geven over eventuele problemen neem dan contact met mij op \(plaats een comment op mijn website\)
+{% endhint %}
 
 Om de DSMRloggerWS firmware geschikt te maken voor een pré DSMR 4.0 Slimme Meter zijn er een aantal opties mogelijk \(zie de \#define tabel hieronder\) die mogelijk van toepassing zijn op pré DSMR 4.0 Slimme Meters.
 

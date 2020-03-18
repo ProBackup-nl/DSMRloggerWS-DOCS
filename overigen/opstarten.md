@@ -44,13 +44,5 @@ Je kunt met `telnet DSMR-WS.local` of met `telnet <IPadresVanDeDSMRlogger>` inlo
 
 Om te bepalen welk IP is uitgegeven aan de ESP door de DHCP server, kun je in je `router` kijken, of met bijv. de `Fing app` of met `nmap`.
 
-Een andere manier om achter het IP-adres van je DSMR-logger te komen is door de ArduinoIDE op te starten.
-
-![](https://mrwheel.github.io/DSMRloggerWS/img/IDE_DSMR-WS_IPaddress.png)
-
-Onder `Network Ports` staat de `DSMR-WS` als optie, met daarachter het IP adres \(in dit voorbeeld is dat `192.168.12.106`\).
-
-UitzoekenVanaf versie 0.4.2 van de DSMRloggerWS firmware werkt bovenstaande misschien niet meer!
-
 [Opstartmeldingen \(Video\)](https://youtu.be/CyqlkIMbBRk)
 

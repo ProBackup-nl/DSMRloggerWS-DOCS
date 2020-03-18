@@ -2,9 +2,15 @@
 
 Om te testen of de verwerking van de gegevens, die normaal gesproken uit de Slimme Meter komen, goed gaat kun je met deze \#define de firmware zó maken dat hij zélf voor \(test\) data zorgt. Om de tijd te versnellen zal de testdata eerst de maanden versneld laten voorbij gaan, daarna de dagen en tenslotte de uren.
 
-Let op! Alleen om te testen!
+{% hint style="info" %}
+Let op!   
+Alleen om te testen!
+{% endhint %}
 
-Let op! Deze functie schakelt het versturen van berichten naar de MQTT broker uit
+{% hint style="info" %}
+Let op!   
+Deze functie schakelt het versturen van berichten naar de MQTT broker uit
+{% endhint %}
 
 | \#define | Functie |
 | :--- | :--- |

@@ -4,8 +4,11 @@
 
 Als je een OLED schermpje op **J4** van de DSMR-logger V4 hebt aangesloten dan zorgt deze optie ervoor dat het OLED schermpje ook gebruikt wordt door de Firmware.
 
-Let op! Alleen voor DSMR-logger V4  
+{% hint style="info" %}
+Let op!   
+Alleen voor DSMR-logger V4  
 Met dank aan Dick Spork.
+{% endhint %}
 
 | \#define | Functie |
 | :--- | :--- |

@@ -1,9 +1,9 @@
 # Verschillen ESP8266 modules
 
-* ESP-12
-* ESP-01
-* ESP-01 \(Black Edition\)
-* ESP-01S
+* [ESP-12](verschillen_esp8266.md#esp-12)
+* [ESP-01](verschillen_esp8266.md#esp-01)
+* [ESP-01 \(Black Edition\)](verschillen_esp8266.md#esp-01-black-edition)
+* [ESP-01S](verschillen_esp8266.md#esp-01s)
 
 #### ESP-12 ![](https://mrwheel.github.io/DSMRloggerWS/img/ESP-12.png) <a id="esp-12"></a>
 
@@ -25,9 +25,5 @@ Oorspronkelijk had deze ESP-01 ook slecht `512MB` flash geheugen.
 De versie die nu meestal verkocht wordt heeft echter `1MB` geheugen. Het is dus wel zaak op te letten wat voor versie je koopt! De ESP-01S heeft geen power led en de `blauwe led` is niet op GPIO-01 maar op GPIO-02 aangesloten \(pas dit aan in de boards setting!\).  
 Deze versie van de ESP-01 is, met beperkte functionaliteit, geschikt voor de DSMRloggerWS firmware.
 
-\[DSMR-SystemInfo\]  
 ![](https://mrwheel.github.io/DSMRloggerWS/img/SystemInfo.png)
-
-[Next ](https://mrwheel.github.io/DSMRloggerWS/PUYA_patch/)[ Previous](https://mrwheel.github.io/DSMRloggerWS/restAPI/)  
-
 

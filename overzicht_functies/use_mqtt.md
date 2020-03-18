@@ -12,14 +12,15 @@ Via `FSexplorer -> Edit instellingen -> Settings` kun je gegevens over de te geb
 | MQTT Interval \(sec.\) |  De Interval geeft aan om de hoeveel seconden de DSMR-logger gegevens naar de MQTT broker moet sturen. Maak deze Interval niet te klein \(30 seconden is een minimale waarde waarbij de DSMR-logger normaal blijft functioneren\). |
 | MQTT TopTopic |  Dit is het topic waaronder alle andere gegevens worden gepubliceerd. Standaard is dit "DSMR-WS". |
 
-Let op!     \(DSMR-logger V3\)
-
- Het gebruik van de Editor lijkt op een DSMR-logger V3 bordje teveel van het goede. In veel gevallen crashed de DSMR-logger.
-
- Oplossing 1: download het **DSMRsettings.ini** bestand naar je computer, doe de aanpassingen die je nodig hebt en upload het bestand weer naar de DSMR-logger.  
- Niet vergeten daarna de DSMR-logger te re-booten!
-
- Oplossing 2: Upgrade naar een versie 4 bordje of vervang de 1MB Flash Chip door een 4MB W25Q32FVSIG 32Mbit flash chip!
+{% hint style="info" %}
+Let op!     \(DSMR-logger V3\)    
+Het gebruik van de Editor lijkt op een DSMR-logger V3 bordje teveel van het goede. In veel gevallen crashed de DSMR-logger    
+  
+Oplossing 1: download het **DSMRsettings.ini** bestand naar je computer, doe de aanpassingen die je nodig hebt en upload het bestand weer naar de DSMR-logger.  
+ Niet vergeten daarna de DSMR-logger te re-booten!    
+  
+Oplossing 2: Upgrade naar een versie 4 bordje of vervang de 1MB Flash Chip door een 4MB W25Q32FVSIG 32Mbit flash chip!
+{% endhint %}
 
 De DSMR-logger zal iedere `MQTT Interval` seconden de volgende berichten naar de MQTT Broker sturen:
 
@@ -62,11 +63,12 @@ of, als je een username/password hebt ingesteld met dit commando:
 
 `mosquitto_sub -h test.mosquitto.org -u <username> -P <password> -v -t 'DSMR-WS/#'`
 
-Let op!
-
- De standaard **PubSubClient** library kan berichten publiceren van maximaal 128 characters. Vandaar de \(korte\) cryptische benaming van de verschillende velden in de JSON Energy en Power boodschappen. Mocht je langere, meer betekenisvolle, namen willen gebruiken dan moet je in **PubSubClient.h** de \#define van **MQTT\_MAX\_PACKET\_SIZE** aanpassen.
-
  De Energy en Power publicaties zullen in een volgende versie van de DSMRloggerWS firmware vervallen.
+
+{% hint style="info" %}
+Let op!  
+De standaard **PubSubClient** library kan berichten publiceren van maximaal 128 characters. Vandaar de \(korte\) cryptische benaming van de verschillende velden in de JSON Energy en Power boodschappen. Mocht je langere, meer betekenisvolle, namen willen gebruiken dan moet je in **PubSubClient.h** de \#define van **MQTT\_MAX\_PACKET\_SIZE** aanpassen.
+{% endhint %}
 
 | \#define | Functie |
 | :--- | :--- |

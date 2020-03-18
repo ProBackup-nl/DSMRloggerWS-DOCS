@@ -43,6 +43,5 @@ en de Settings:
 | :--- | :--- |
 | SHOW\_PASSWRDS | In de **System Info** tab wordt, als deze \#define actief is de **PSK Key** van het WiFi netwerk getoont. Bij de **B - Board Info** uitvoer wordt met deze deze \#define de **PSK Key** zichtbaar en bij **S - list Settings** het wachtwoord van de MQTT Broker. |
 
-\[System Info\]  
 ![](https://mrwheel.github.io/DSMRloggerWS/img/DSMR-logger-PSK_Key.png)
 

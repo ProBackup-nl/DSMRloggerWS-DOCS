@@ -1,12 +1,10 @@
 # Documentatie DSMRloggerWS
 
-## Documentatie DSMRloggerWS <a id="documentatie-dsmrloggerws"></a>
-
 Voor de project beschrijving ga naar [www.aandewiel.nl](https://willem.aandewiel.nl/index.php/2019/04/09/dsmr-logger-v4-slimme-meter-uitlezer/)
 
 ### Inhoudsopgave <a id="inhoudsopgave"></a>
 
-* Introductie
+* [Introductie](introductie.md)
 * Voorbereiding
   * [ArduinoIDE](voorbereiding/installatie_arduinoide.md)
   * [ESP8266 core](voorbereiding/installatie-esp8266-core.md)

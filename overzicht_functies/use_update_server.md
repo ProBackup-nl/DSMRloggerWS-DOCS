@@ -10,8 +10,11 @@ en vervolgens in de Flash Utility ..
 
 .. op \[ChooseFile\] te klikken en daarna op \[Flash Firmware\]
 
-Let op! Alleen voor ESP-12Deze functionaliteit werkt alleen als je 4MB flash geheugen hebt. Standaard heeft iedere ESP-12 dat.  
+{% hint style="info" %}
+Let op!   
+Alleen voor ESP-12Deze functionaliteit werkt alleen als je 4MB flash geheugen hebt. Standaard heeft iedere ESP-12 dat.  
 Je kunt een ESP-01 eventueel upgraden naar 4MB door de aanwezige flash chip te vervangen door een W25Q32FVSIG 32Mbit flash chip.
+{% endhint %}
 
 #### Enable Format SPIFFS <a id="enable-format-spiffs"></a>
 

@@ -8,21 +8,22 @@ Uiteraard kun je hiervoor ook iedere andere geschikte programmer gebruiken!
 
 ![](https://mrwheel.github.io/DSMRloggerWS/img/USB2ESP01-PrgrmrHack.png)
 
-Als je de ESP-01 op de programmer hebt aangesloten en deze staat in "Flash-Mode" ga dan in de Arduino IDE naar `Tools` **-&gt;** `ESP8266 Sketch Data Upload`  
+Als je de ESP-01 op de programmer hebt aangesloten en deze staat in "Flash-Mode" ga dan in de Arduino IDE naar `Tools` **-&gt;** `ESP8266 Sketch Data Upload`
 
-
-Let op!De lay-out van de **.csv** bestanden van de DSMRloggerWS firmware is niet compatibel met die van de DSMRlogger2HTTP firmware.  
+{% hint style="info" %}
+Let op!  
+De lay-out van de **.csv** bestanden van de DSMRloggerWS firmware is niet compatibel met die van de DSMRlogger2HTTP firmware.  
 Mocht je de, met de DSMRlogger2HTTP firmware opgebouwde, history willen bewaren, dan moet je deze bestanden éérst naar je computer uploaden \(dat kan via de **/onderhoud** pagina\).
+{% endhint %}
 
 SPIFFS wordt nu leeg gemaakt en alle bestanden in de `data`-map worden naar het SPIFFS overgezet.
 
 Hierna zal de DSMR-logger normaal opstarten, maar met de nieuw SPIFFS inhoud.
 
-Let op!Hou er rekening mee dat eventuele data-bestanden die al op SPIFFS stonden nu weg zijn! Als je ze niet kwijt wil moet je er eerst een kopie van maken op je computer en deze, na het flashen van SPIFFS weer terug zetten \(dat kan met de **DSMRlogger2HTTP** firmware met behulp van de **/onderhoud** pagina en bij de **DSMRloggerWS** firmware met de FSexplorer ![](https://mrwheel.github.io/DSMRloggerWS/img/FSexplorer.png)\)!
+{% hint style="info" %}
+Let op!  
+Hou er rekening mee dat eventuele data-bestanden die al op SPIFFS stonden nu weg zijn! Als je ze niet kwijt wil moet je er eerst een kopie van maken op je computer en deze, na het flashen van SPIFFS weer terug zetten \(dat kan met de **DSMRlogger2HTTP** firmware met behulp van de **/onderhoud** pagina en bij de **DSMRloggerWS** firmware met de FSexplorer ![](https://mrwheel.github.io/DSMRloggerWS/img/FSexplorer.png)\)!
+{% endhint %}
 
-\[ChartJaar\]  
-
-
-![](https://mrwheel.github.io/DSMRloggerWS/img/ChartJaar.png)[Next ](https://mrwheel.github.io/DSMRloggerWS/overzichtFuncties/)[ Previous](https://mrwheel.github.io/DSMRloggerWS/uploadFirmware_V3/)  
-
+![](https://mrwheel.github.io/DSMRloggerWS/img/ChartJaar.png)
 

@@ -1,7 +1,7 @@
 # restAPI
 
 Via de `restAPI` is het mogelijk om vanaf een extern systeem data uit de DSMRlogger op te halen.  
- Deze data wordt in `json` formaat afgeleverd.
+Deze data wordt in `json` formaat afgeleverd.
 
 De syntax is:
 
@@ -11,10 +11,11 @@ De syntax is:
 
 In plaats van `dsmr-ws.local` kun je ook het `IPadres` van de DSMR-logger gebruiken.
 
-Let op!
-
+{% hint style="info" %}
+Let op!  
 **restAPI** is case-sensitive en moet precies zó geschreven worden of helemaal in lower-case \(**restapi**\).  
- De overige argumenten zijn niet case-sensitive \(**Get** of **gEt** en **Actual** of **aCtUaL** zijn gelijk\).
+De overige argumenten zijn niet case-sensitive \(**Get** of **gEt** en **Actual** of **aCtUaL** zijn gelijk\).
+{% endhint %}
 
 ### Voorbeeld 1 <a id="voorbeeld-1"></a>
 
