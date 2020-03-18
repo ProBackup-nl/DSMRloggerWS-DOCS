@@ -32,24 +32,24 @@ Voor de project beschrijving ga naar [www.aandewiel.nl](https://willem.aandewiel
   * [Toon wachtwoorden](overzicht_functies/show-passowrds.md)
   * [Test mode](overzicht_functies/has_no_meter.md)
 * Hardware
-  * DSMR-logger Versie 4
-  * DSMR-logger Versie 4.5
-  * Programmer voor de DSMR-logger V4
-  * DSMR-logger Versie 3
-  * Programmer voor de ESP-01
+  * [DSMR-logger Versie 4](hardware/hardware_v4.md)
+  * [DSMR-logger Versie 4.5](hardware/hardware-v4.5.md)
+  * [Programmer voor de DSMR-logger V4](hardware/hardware-v4-programmer.md)
+  * [DSMR-logger Versie 3](hardware/hardware_v3.md)
+  * [Programmer voor de ESP-01](hardware/hardware_v3_programmer.md)
 * Overigen
-  * \(Eerste keer\) Opstarten
-  * gebruik restAPI
-  * Verschillen ESP8266 modules
-  * PUYA flash chip
-  * Vragen en Antwoorden
+  * [\(Eerste keer\) Opstarten](overigen/opstarten.md)
+  * [gebruik restAPI](overigen/restapi.md)
+  * [Verschillen ESP8266 modules](overigen/verschillen_esp8266.md)
+  * [PUYA flash chip](overigen/puya-patch.md)
+  * [Vragen en Antwoorden](overigen/vragen-en-antwoorden.md)
 * Integratie met andere systemen
-  * Integratie met Domoticz
-  * Integratie met Homey
-  * Integratie met Home Assistant
-  * Integratie met Mindergas
+  * [Integratie met Domoticz](integratie-met-andere-systemen/integratie_domoticz.md)
+  * [Integratie met Homey](integratie-met-andere-systemen/integratie_homey.md)
+  * [Integratie met Home Assistant](integratie-met-andere-systemen/integratie_hassio.md)
+  * [Integratie met Mindergas](integratie-met-andere-systemen/integratie-mindergas.md)
 * Telnet
-  * telnet logging
+  * [telnet logging](telnet.md)
 
 ![](https://mrwheel.github.io/DSMRloggerWS/img/TabelActueel.png)
 
