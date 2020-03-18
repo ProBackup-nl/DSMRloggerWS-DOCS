@@ -1,4 +1,4 @@
-# Firmware Flashen DSMR-logger v4 - DSMRloggerWS
+# Firmware Flashen DSMR-logger v4
 
 Versie 4 van de DSMR-logger hardware maakt gebruik van een ESP-12 processor. Deze processor zit op de printplaat van de DSMR-logger gesoldeerd en moet dus, op de printplaat, geflashed worden.
 
