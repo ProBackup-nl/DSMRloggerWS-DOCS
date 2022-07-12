@@ -37,12 +37,12 @@ Ook een [USB-to-Serial adapter](https://opencircuit.nl/Product/11544/ESP-01-USB-
 
 ~~Let op! Het heeft er alle schijn van dat dit bordje niet meer '_gezien_' wordt onder **MacOS 10.14**!~~
 
-#### USB to TTL Serial adaptor kabel <a id="usb-to-ttl-serial-adaptor-kabel"></a>
+#### USB naar TTL Seriële adapter kabel <a id="usb-to-ttl-serial-adaptor-kabel"></a>
 
-Ook [deze](https://opencircuit.nl/Product/12809/USB-to-TTL-Serial-Cable-Debug-Console-Cable-for-Raspberry-Pi) USB-to-Serial kabel is eenvoudig als programmer te gebruiken alleen moet je er rekening mee houden dat de geleverde spanning **5 volt** is en je deze dus niet op de programming poort van de DSMR-logger V4 mag aansluiten.  
-Sluit de USB-to-Serial kabel op deze manier aan om zonder problemen de DSMR-logger V4 te kunnen programmeren.
+Ook de [Adafruit 954 USB-naar-TTL-seriële kabel](https://opencircuit.nl/product/USB-naar-TTL-seri%C3%ABle-kabel-Debug-consolekabel) is eenvoudig als programmer te gebruiken. Je moet er rekening mee houden dat de geleverde spanning **5 volt** is en je deze dus niet op de 3,3 volt programmeerpoort van de DSMR-logger V4 mag aansluiten.  
+Sluit de USB-naar-Serieel kabel op deze manier aan, om zonder problemen de DSMR-logger V4 te programmeren.
 
-![](https://mrwheel.github.io/DSMRloggerWS/img/USB2TTL_5Volt_DSMR-logger.png)
+![Rood op J7, Groen op J5 RxD, Wit op J5 TxD, Zwart op J4 GND](https://mrwheel.github.io/DSMRloggerWS/img/USB2TTL_5Volt_DSMR-logger.png)
 
 #### Flashen \(programmeren\) <a id="flashen-programmeren"></a>
 
